@@ -1,0 +1,237 @@
+.card{
+	width: 400px;
+	height: 600px;
+	box-shadow: 0 0 8px;
+	position: relative;
+	place-items: center;
+	left: 40%;
+	
+}
+.content{
+  width: 90%;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 10px;
+  background: #fff;
+}
+.title{
+	/* display: inline-block; */
+	padding-right: 100px;
+	font-size: 22px;
+	font-weight: 500;
+}
+.description{
+	font-size: 17px;
+	color:gray;
+}
+.content .name{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+.price{
+	/* padding-left:350px; */
+	position: absolute;
+	font-size:25px;
+	font-weight: 500;
+	color: blue;
+	top: 10px;
+	right: 0px;
+}
+.size, .color{
+	margin-top: 5px 0;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+.size div{
+	border-radius:50%;
+	width: 28px;
+	height: 28px;
+	text-align: center;
+	font-weight: 500;
+	color: #456ab4;;
+	font-size: 15px;
+	line-height: 27px;
+	cursor: pointer;
+}
+.size .m{
+	background: #456ABD;
+	color: #fff;
+}
+.white{
+	background: lightgrey;
+  }
+.blue{
+	background: #456ABD;
+  }
+  .yellow{
+	background: #EAA523;
+  }
+.content .color div{
+	margin-top: 10px;
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+  }
+.button{
+	display: flex;
+	height: 80px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.button button{
+	height: 40px;
+	width: 100%;
+	margin: 0 10px;
+	border: 2px solid #456ABD;
+	background: #456ABD;
+	outline: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+  }
+
+.card2{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	padding: 0 200px;
+	width: 800px;
+	border-radius: 7px 7px 7px 7px;
+	-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.images{
+ float: left;
+ border-radius: 7px 0 0 7px;
+}
+.card2 .title{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.card2 .author{
+	text-transform: uppercase;
+	font-size: 15px;
+	color: gray;
+}
+.content2{
+	padding-top: 50px;
+	padding-left: 40px;
+	width: 327px;
+	font-family: 'Bentham', serif;
+}
+.content2 .desception{
+	margin-top: 20px;
+	line-height: 27px;
+	font-size: 20px;
+}
+.foot{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+}
+.foot .price2{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+}
+.foot .button2 button{
+	
+	padding: 15px 50px;
+	color: white;
+	border-radius: 50%;
+	background-color: #9cebd5;
+	cursor: pointer;
+	outline: none;
+	box-sizing: border-box;
+	border: transparent;
+	border-radius: 60px;
+}
+.foot .button2 button:hover{
+	background-color: #79b0a1;
+}
+
+/* car3-css */
+
+.card3{
+	display: flex;
+	justify-content: center;
+	/* flex-wrap: wrap; */
+	margin-top: 100px;
+	/* padding-left: 30px;
+	padding-right: 30px; */
+	align-items: flex-end;
+	text-align: center;
+	
+}
+.block1{
+	background-color: #9cebd5;
+	overflow: hidden;
+	width:calc(33.333%-30px) ;
+	margin-left: 30px;
+	border-radius: 20px;
+	padding-top: 10px;
+}
+
+.card3 .block2{
+	display: flex;
+	justify-content: center;
+	width:calc(33.333%-30px) ;
+	background-color: #9cebd5;
+	margin-left: 30px;
+	border-radius: 20px;
+	padding-top: 10px;
+	text-align: left;
+	position: relative;
+}
+.block2 .mota{
+	margin-top: 30px;
+	line-height: 27px;
+	
+}
+.block2 .content-block2 .price2{
+  padding-left: 50px;
+  color: red;
+}
+.block2 button{
+	margin-top: 50px;
+}
+.block2 button:hover{
+  background-color: #79b0a1;
+}
+.block2 .price-mota{
+	font-size: 18px;
+	font-weight: 600;
+	position: absolute;
+}
+.images-block2{
+	width: 400px;
+	height: 500px;
+	padding: 40px 40px;
+}
+.block3{
+	
+	background-color: #9cebd5;
+	border-radius: 20px;
+	width:calc(33.333%-30px) ;
+	margin-left: 30px;
+	padding-top: 10px;
+}
+.block1 p, .block2 p, .block3 p{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.block1 .content-block1, .block3 .content-block3{
+  padding-bottom: 10px;
+  padding: 10px 20px;
+}

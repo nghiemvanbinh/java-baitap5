@@ -1,0 +1,32 @@
+.section {
+  /* background: url(/assets/css/image/hinh-nen.jpg) no-repeat left top; */
+  padding: 80px 80px 80px 80px;
+  text-align: center;
+  width: 1000px;
+  position: relative;
+}
+.section .text-box{
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.section .intro, h2{
+  color:white;
+}
+.section .button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 10px 30px;
+  background-color: brown;
+}
+.section .button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
